@@ -36,7 +36,7 @@ def cityreader(cities=[]):
   # For each city record, create a new City instance and add it to the 
   # `cities` list
     
-    
+    del cities[0]
     return cities
 
 cityreader(cities)
